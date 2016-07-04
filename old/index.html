@@ -1,0 +1,44 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="static/css/main.css?093004072013" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Timecounter</h1>
+                <h1><small>Калькулятор времени для Redmine</small></h1>
+            </div>
+            <div class="row-fluid">
+                <div class="span4 offset2">
+                    <div class="well well-large">
+                        <h4>Посчитать время</h4>
+                        <span class="label label-info">с</span> <input type="text" class="timeinput hours start" maxlength="2" placeholder="01">:<input type="text"  class="timeinput minutes start" maxlength="2" placeholder="31"> <span class="label label-info">до</span> <input type="text" class="timeinput hours end" maxlength="2" placeholder="02">:<input class="timeinput minutes end" type="text" maxlength="2" placeholder="32">
+                        <button class="btn btn-primary clear_btn">Очистить</button>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="well well-large">
+                        <h4>Результат</h4>
+                        <input type="text" class="result" disabled="disabled" value="Не подсчитано"> <span class="badge badge-info">часа</span>
+                        <button class="btn btn-primary copy_btn">Скопировать в буфер</button>
+                    </div>
+                </div>
+            </div>
+             <div class="hero-unit clearfix">
+                 <h2 class='pull-right clearfix'>M-Social &nbsp;&copy;&nbsp; Constantine Tretyak</h2>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="static/js/main.js?113304072013"></script>
+    </body>
+</html>
